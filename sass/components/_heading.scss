@@ -1,0 +1,23 @@
+.heading-primary {
+    color: $color-white;
+    text-transform: uppercase;
+    backface-visibility: hidden; // For stopping Animation Shakeness
+    margin-bottom: 3rem;
+
+    &--main{
+        display: block;
+        font-size: 6rem;
+        font-weight: 600;
+        line-height: 1.25;
+        letter-spacing: 1.5rem;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        font-style: italic;
+        line-height: 1.5;
+        letter-spacing: 0.5rem;
+    }
+}

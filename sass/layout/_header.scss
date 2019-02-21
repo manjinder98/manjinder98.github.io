@@ -1,0 +1,20 @@
+.header {
+    height: 100vh; // Fill Header for head page!!!
+    // Linear Gradient for adding colors to the background image
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)), 
+        url(../img/background.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative; 
+
+    &__text-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); // Now they're related to the parent element
+        text-align: center;
+    }
+}
