@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Developer Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manjinder98/manjinder98.github.io.git"
+  },
+  "author": "Manjinder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manjinder98/manjinder98.github.io/issues"
+  },
+  "homepage": "https://manjinder98.github.io",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {}
+}
