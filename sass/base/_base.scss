@@ -1,0 +1,21 @@
+/*
+*   Universal Selector for selecting all the elements in the page
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html {
+    font-size: 62.5%; // 1rem = 10px -> 10px/16px = 67.5
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lato", sans-serif; // Font Family is always specified on the body selector
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: $color-black;
+}
