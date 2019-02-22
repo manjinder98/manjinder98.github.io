@@ -21,3 +21,30 @@
         letter-spacing: 0.5rem;
     }
 }
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    /*
+    *   Text Color
+    */
+    display: inline-block;
+    background-image: linear-gradient(
+        to right, 
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .2rem;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}

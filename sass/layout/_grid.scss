@@ -1,0 +1,12 @@
+.row {
+    max-width: $grid-width; // Max-Width -> Adapts to the screen
+    margin: 0 auto;
+
+    &:not(:last-child) { // NOT selects everything excepts the last child
+        margin-bottom: $gutter-vertical;
+    } 
+
+    .col {
+        width: 100%;
+    }
+}
