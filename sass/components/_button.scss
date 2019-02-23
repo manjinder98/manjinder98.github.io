@@ -1,0 +1,68 @@
+/*
+* Link PseudoClass for stylink elements under special condition
+*/
+.btn {
+    &,
+    &:link, 
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none; // Deleting Underline
+        padding: 15px 40px;
+        display: inline-block;
+        border-radius: 100px;
+        transition: all .2s; // Make Animations Smooth
+        animation: moveInBottom .5s ease-out .25s;
+        animation-fill-mode: backwards; // It will automatically appy the styles before the animation starts
+    
+        // Change for the button element
+        border: none;
+        cursor: pointer;
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba($color-black,.2); // X direction: 0, Y direction: 10, Blur: 20
+    }
+
+    &:active,
+    &:focus {
+        outline: none;
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba($color-black,.2);
+    }
+
+    &--white {
+        background-color: $color-white;
+        color: $color-grey-dark;
+    }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+    }
+}
+
+.btn-text {
+    &:link,
+    &:visited {
+        font-size: $default-font-size;
+        color: $color-primary;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid $color-primary;
+        padding: 3px;
+        transition: all .2s;
+    }
+
+    &:hover{
+        background-color: $color-primary;
+        color: $color-white;
+        box-shadow: 0 1rem 2rem rgba($color-black, .25);
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: 0 1rem 2rem rgba($color-black, .25);
+        transform: translateY(0);
+    }
+}
