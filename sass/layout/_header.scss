@@ -10,6 +10,18 @@
     background-position: top;
     position: relative; 
 
+    &__logo {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        h1 {
+			font-weight: 700;
+			font-style: normal;
+            font-size: 3.5rem;
+            color: $color-white;
+        }
+    }
+
     &__text-box {
         position: absolute;
         top: 50%;
@@ -20,6 +32,7 @@
 
     &__scroll-down-icon {
         text-align: center;
+        color: #fff;
         position: absolute;
         left: 0;
         right: 0;

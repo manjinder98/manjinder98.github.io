@@ -183,12 +183,42 @@ body {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);
   transform: translateY(0); }
 
+.skills-block {
+  align-items: center;
+  display: grid;
+  grid-gap: 2px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  padding: 3rem 3rem; }
+  .skills-block p {
+    background-color: #217dbb;
+    border: 1px solid #217dbb;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    padding: .5em;
+    transition: background-color .5s, color .5s; }
+    .skills-block p p:nth-child(1) {
+      grid-area: 1 / 1 / 2 / 3; }
+    .skills-block p i {
+      margin-left: 5px; }
+
 .header {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(135, 227, 255, 0.8), rgba(0, 74, 136, 0.8)), url(../img/background.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
+  .header__logo {
+    position: absolute;
+    top: 2rem;
+    left: 2rem; }
+    .header__logo h1 {
+      font-weight: 700;
+      font-style: normal;
+      font-size: 3.5rem;
+      color: #fff; }
   .header__text-box {
     position: absolute;
     top: 50%;
@@ -197,6 +227,7 @@ body {
     text-align: center; }
   .header__scroll-down-icon {
     text-align: center;
+    color: #fff;
     position: absolute;
     left: 0;
     right: 0;
@@ -238,15 +269,16 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
-.section-about {
-  background-color: #f7f7f7;
+.section {
   padding: 10rem 0; }
-  .section-about__hr {
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    margin: 1em 0;
-    width: 25%; }
-
-.section-projects {
-  background-color: #fff;
-  padding: 10rem 0; }
+  .section-about {
+    background-color: #f7f7f7; }
+    .section-about__hr {
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      margin: 1em 0;
+      width: 25%; }
+  .section-projects {
+    background-color: #fff; }
+  .section-skills {
+    background-color: #f7f7f7; }

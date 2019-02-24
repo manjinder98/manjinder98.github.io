@@ -1,16 +1,22 @@
-.section-about {
-    background-color: $color-grey-light;
+.section {
     padding: 10rem 0;
+    
+    &-about {
+        background-color: $color-grey-light;
 
-    &__hr {
-        border: none;
-        border-bottom: 1px solid rgba(0,0,0,.1);
-        margin: 1em 0;
-        width: 25%;
+        &__hr {
+            border: none;
+            border-bottom: 1px solid rgba(0,0,0,.1);
+            margin: 1em 0;
+            width: 25%;
+        }
     }
-}
 
-.section-projects {
-    background-color: $color-white;
-    padding: 10rem 0;
+    &-projects {
+        background-color: $color-white;
+    }
+
+    &-skills{
+        background-color: $color-grey-light;
+    }
 }
