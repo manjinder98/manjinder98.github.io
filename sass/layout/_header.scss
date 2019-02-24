@@ -17,4 +17,27 @@
         transform: translate(-50%, -50%); // Now they're related to the parent element
         text-align: center;
     }
+
+    &__scroll-down-icon {
+        text-align: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0px;
+        animation: MoveUpDown 1.5s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+        
+        @keyframes MoveUpDown {
+            0%, 100% {
+              bottom: 0;
+            }
+            50% {
+              bottom: 15px;
+            }
+          }
+    }
+}
+.scroll-down-icon {
+    width: 5%; // Icon Width
 }
