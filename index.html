@@ -17,6 +17,24 @@
 </head>
 <body>
 
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>  
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#header" class="navigation__link">Home</a></li>
+                    <li class="navigation__item"><a href="#section-about" class="navigation__link">About Me</a></li>
+                    <li class="navigation__item"><a href="#section-projects" class="navigation__link">Projects</a></li>
+                    <li class="navigation__item"><a href="#section-skills" class="navigation__link">Skills</a></li>
+                    <li class="navigation__item"><a href="#section-contact" class="navigation__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <header id="header" class="header">
             <div class="header__logo">
                 <h1>MS</h1>
@@ -354,7 +372,7 @@
                 </div>
                 <div class="col-1-of-2">
                     <p class="footer__copyright">
-                        &copy; 2019 Manjinder Singh
+                        &copy; <span id="year"></span> Manjinder Singh
                     </p>
                 </div>
             </div>
@@ -380,6 +398,27 @@
             prevEl: '.swiper-button-prev',
             },
         });
+
+        var date = new Date();
+        var year = date.getFullYear();
+        document.getElementById("year").innerHTML = year;
+        
+        document.addEventListener("DOMContentLoaded",() => {
+            // Close nav when link is clicked
+            const navigationItems = document.querySelectorAll(".navigation__item");
+            const navigation = document.querySelector(".navigation__nav");
+            const navigationButton = document.querySelector(".navigation__button");
+
+            const selectNavItem = () => {
+                if ((navigation.style.opacity = "1")) {
+                    navigationButton.click();
+                }
+            };
+
+            navigationItems.forEach(navItem => {
+                navItem.addEventListener("click", selectNavItem);
+            });
+        })
     </script>
 
 </body>
