@@ -1,0 +1,38 @@
+.footer {
+    background-color: $color-grey-dark-2;
+    padding: 10rem 0;
+    font-size: 1.4rem;
+
+    .icon-up { 
+        margin-top: -5rem;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: center;
+        flex-wrap: wrap;
+        //justify-content: center;
+        //margin-top: .625rem;
+
+        i {
+            border: 2px solid $color-white;
+            border-radius: 30%;
+            font-size: 1.6rem;
+            height: 3.75rem;
+            margin: .35rem;
+            padding: .95rem;
+            color: $color-primary;
+            background-color: $color-white;
+            //transition: background-color .5s, color .5s ease-in-out;
+            width: 3.75rem;
+        }
+    }
+
+    &__copyright {
+        border-top: 1px solid $color-grey-dark;
+        color: $color-white;
+        padding-top: 2rem;
+        width: 27.12%;
+        float: right;
+    }
+}

@@ -27,6 +27,9 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.u-width-5 {
+  width: 5% !important; }
+
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
@@ -197,6 +200,80 @@ body {
       background-color: #fff;
       color: #217dbb; }
 
+.form__group:not(:last-child) {
+  margin-bottom: 2rem; }
+
+.form__input {
+  font-size: 1.5rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
+  border-bottom: 3px solid transparent;
+  width: 90%;
+  display: block;
+  transition: all .3s; }
+  .form__input:focus {
+    outline: none;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid #217dbb; }
+  .form__input:focus:invalid {
+    border-bottom: 3px solid #004A88; }
+  .form__input::-webkit-input-placeholder {
+    color: #999; }
+
+.form__label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: .7rem;
+  display: block;
+  transition: all .3s; }
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4rem); }
+
+.book {
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-7.jpg);
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+  .book__form {
+    width: 50%;
+    padding: 6rem; }
+
+.footer {
+  background-color: #333;
+  padding: 10rem 0;
+  font-size: 1.4rem; }
+  .footer .icon-up {
+    margin-top: -5rem; }
+  .footer .social {
+    display: flex;
+    flex-direction: center;
+    flex-wrap: wrap; }
+    .footer .social i {
+      border: 2px solid #fff;
+      border-radius: 30%;
+      font-size: 1.6rem;
+      height: 3.75rem;
+      margin: .35rem;
+      padding: .95rem;
+      color: #217dbb;
+      background-color: #fff;
+      width: 3.75rem; }
+  .footer__copyright {
+    border-top: 1px solid #777;
+    color: #fff;
+    padding-top: 2rem;
+    width: 27.12%;
+    float: right; }
+
 .header {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(135, 227, 255, 0.8), rgba(0, 74, 136, 0.8)), url(../img/background.jpg);
@@ -265,3 +342,5 @@ body {
     background-color: #fff; }
   .section-skills {
     background-color: #f7f7f7; }
+  .section-contact {
+    background-color: #fff; }
