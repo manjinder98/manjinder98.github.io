@@ -93,9 +93,16 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/nat-5.jpg);
     position: absolute;
     top: 0; }
+    .swiper-slide__picture--1 {
+      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/DWProject.png); }
+    .swiper-slide__picture--2 {
+      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/BProject.png); }
+    .swiper-slide__picture--3 {
+      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/DiceProject.png); }
+    .swiper-slide__picture--4 {
+      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/JavaProject.JPG); }
   .swiper-slide__heading {
     font-size: 2rem;
     font-weight: 300;
