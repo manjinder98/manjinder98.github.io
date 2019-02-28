@@ -39,6 +39,15 @@
             <div class="header__logo">
                 <h1>MS</h1>
             </div>
+            <div class="gradient">
+            </div>
+            <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="img/eye-view.mp4" type="video/mp4">
+                    <source src="img/eye-view.webm" type="video/wepm">
+                    Your Browser is not supported!
+                </video>
+            </div>
             <div class="header__text-box">
                 <h1 class="heading-primary">
                     <span class="heading-primary--main">MANJINDER SINGH</span>
@@ -61,8 +70,15 @@
                         </div>
                         <p class="paragraph">
                             Hey there! My name is Manjinder and I'm a Full Stack Web Developer.
-                            I am currently a Software Engineering undergraduate student at the University of Strathclyde where I am learning more about computer science, especially the logic, the functions and everything that stands behind any programming language. I started programming since I was in high school where I learnt basic web programming languages like HTML and CSS. 
-                            Nowadays I keep updating myself by learning new languages and deliver new projects that could help me to improve my coding experience by making my code more effienct and reliable. In my free time I always try to learn new developments that this field has to offer day by day in order to keep the pace in this fast changing environment.
+                            I am currently a Software Engineering undergraduate student at the University of Strathclyde
+                            where I am learning more about computer science, especially the logic, 
+                            the functions and everything that stands behind any programming language. 
+                            I started programming since I was in high school where I learnt basic web programming languages
+                            like HTML and CSS. 
+                            Nowadays I keep updating myself by learning new languages and deliver new projects 
+                            that could help me to improve my coding experience by making my code more effienct and reliable. 
+                            In my free time I always try to learn new developments that this field has to offer day by day 
+                            in order to keep the pace in this fast changing environment.
                         </p>
                     </div>
                 </div>
@@ -257,22 +273,22 @@
             <div class="row">
                 <div class="book">
                     <div class="book__form">
-                        <form class="form" action="mailto:manjindermultani1998@gmail.com">
+                        <form class="form" name="form" action="https://formspree.io/manjindermultani1998@gmail.com" onsubmit="return Validation();" method="POST">
                             <div class="u-margin-bottom-medium">
                                 <h2 class="heading-secondary">
                                     Contact Me
                                 </h2>
                             </div>
                             <div class="form__group">
-                                <input type="text" id="name" class="form__input" placeholder="Enter Name" required>
+                                <input type="text" id="name" name="name" class="form__input" placeholder="Enter Name" required>
                                 <label for="name" class="form__label">Name</label>
                             </div>
                             <div class="form__group">
-                                <input type="email" id="email" class="form__input" placeholder="Enter Email" required>
+                                <input type="email" id="email" name="email" class="form__input" placeholder="Enter Email" required>
                                 <label for="email" class="form__label">Email</label>
                             </div>
                             <div class="form__group">
-                                <textarea name="message" id="message" class="form__input" placeholder="Enter Message" rows="5" cols="30" required></textarea>
+                                <textarea id="message" name="message" class="form__input" placeholder="Enter Message" rows="5" cols="30" required></textarea>
                                 <label for="message" class="form__label">Message</label>
                             </div>
                             <div class="form-group">
@@ -287,7 +303,7 @@
         <footer id="footer" class="footer">
             <div class="row">
                 <div class="col u-center-text icon-up">
-                    <a href="#header"><img src="img/scroll-icon-up.png" class="u-width-5"></a>
+                    <a href="#header"><img src="img/scroll-icon-up.png" class="u-width-medium"></a>
                 </div>
             </div>
             <div class="row">
@@ -310,46 +326,8 @@
 
     </main>
 
-    <script src="js/swiper.min.js">
-    </script>
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            keyboard: {
-            enabled: true,
-            },
-            pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-            },
-            navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-            },
-        });
-
-        var date = new Date();
-        var year = date.getFullYear();
-        document.getElementById("year").innerHTML = year;
-        
-        document.addEventListener("DOMContentLoaded",() => {
-            // Close nav when link is clicked
-            const navigationItems = document.querySelectorAll(".navigation__item");
-            const navigation = document.querySelector(".navigation__nav");
-            const navigationButton = document.querySelector(".navigation__button");
-
-            const selectNavItem = () => {
-                if ((navigation.style.opacity = "1")) {
-                    navigationButton.click();
-                }
-            };
-
-            navigationItems.forEach(navItem => {
-                navItem.addEventListener("click", selectNavItem);
-            });
-        })
-    </script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 </html>

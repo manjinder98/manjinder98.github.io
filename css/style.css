@@ -27,8 +27,8 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
-.u-width-5 {
-  width: 5% !important; }
+.u-width-medium {
+  width: 3.5% !important; }
 
 .heading-primary {
   color: #fff;
@@ -393,10 +393,22 @@ body {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(135, 227, 255, 0.8), rgba(0, 74, 136, 0.8)), url(../img/background.jpg);
   background-size: cover;
   background-position: top;
-  position: relative; }
+  position: relative;
+  background: linear-gradient(to right bottom, rgba(135, 227, 255, 0.75), rgba(0, 74, 136, 0.75)); }
+  .header .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden; }
+    .header .bg-video__content {
+      height: 100%;
+      width: 100%;
+      object-fit: cover; }
   .header__logo {
     position: absolute;
     top: 3rem;
