@@ -343,19 +343,6 @@ body {
       height: 100%;
       width: 100%;
       object-fit: cover; }
-  .header__logo {
-    position: absolute;
-    top: 3rem;
-    left: 3rem; }
-    .header__logo h1 {
-      font-weight: 700;
-      font-style: normal;
-      font-size: 3.5rem;
-      color: #fff; }
-    @media (max-width: 56.25em) {
-      .header__logo {
-        top: 2.5rem;
-        right: 2.5rem; } }
   .header__text-box {
     position: absolute;
     top: 50%;
