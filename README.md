@@ -23,7 +23,7 @@ git clone https://github.com/manjinder98/manjinder98.github.io.git
 open index.html
 ```
 
-4. Explore
+3. Explore
 
 ```
 Enjoy the website and feel free to customize it!
