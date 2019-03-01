@@ -40,6 +40,10 @@ Enjoy the website and feel free to customize it!
 
 * **Manjinder Singh** - *Initial work* - [Portfolio](https://github.com/manjinder98/manjinder98.github.io/)
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
 ## Acknowledgments
 
 * [Animate.css](https://daneden.github.io/animate.css/) - CSS Animations Used
