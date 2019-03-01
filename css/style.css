@@ -134,13 +134,13 @@ body {
     position: absolute;
     top: 0; }
     .swiper-slide__picture--1 {
-      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/DWProject.png); }
+      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/dw-project.png); }
     .swiper-slide__picture--2 {
-      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/BProject.png); }
+      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/b-project.png); }
     .swiper-slide__picture--3 {
-      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/DiceProject.png); }
+      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/dice-project.png); }
     .swiper-slide__picture--4 {
-      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/JavaProject.JPG); }
+      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/java-project.JPG); }
   .swiper-slide__heading {
     font-size: 2rem;
     font-weight: 300;
