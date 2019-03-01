@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/manjinder98/manjinder98.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Manjinder Singh Portfolio
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Personal portfolio built with the use of HTML5, CSS3, SASS and JS.
 
-### Markdown
+[Portfolio](https://manjinder98.github.io/)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Getting Started
 
-```markdown
-Syntax highlighted code block
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-# Header 1
-## Header 2
-### Header 3
+### Installing
 
-- Bulleted
-- List
+1. Clone the repo
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+git clone https://github.com/manjinder98/manjinder98.github.io.git
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+2. Open home file
 
-### Jekyll Themes
+```
+open index.html
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/manjinder98/manjinder98.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+4. Explore
 
-### Support or Contact
+```
+Enjoy the website and feel free to customize it!
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Built With
+
+* HTML5
+* CSS3
+* SASS
+* JavaScript
+
+## Contributors
+
+* **Manjinder Singh** - *Initial work* - [Portfolio](https://github.com/manjinder98/manjinder98.github.io/)
+
+## Acknowledgments
+
+* [Animate.css](https://daneden.github.io/animate.css/) - CSS Animations Used
+* [Swiper.js](http://idangero.us/swiper/) - Sliders Layout Used
+* [Font Awesome](https://fontawesome.com/) - Icons Used
+
+
+Viewport
+Window
+×
+×
+×
