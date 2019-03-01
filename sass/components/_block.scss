@@ -8,6 +8,10 @@
             background-color: $color-primary;
             margin: 5px;
             border-radius: 5px;
+            
+            @include respond(tab-port) {
+                margin: 2.5px;
+            }
 
             i {
                 margin-left: 5px;
@@ -17,6 +21,13 @@
                 background-color: $color-white;
                 color: $color-primary;
 
+            }
+
+            .skill {
+                font-size: 16px;
+                @include respond(tab-port) {
+                    font-size: 12px;
+                }
             }
         }
 

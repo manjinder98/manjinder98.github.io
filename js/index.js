@@ -9,6 +9,25 @@ var swiper = new Swiper('.swiper-container', {
     el: '.swiper-pagination',
     clickable: true,
     },
+    breakpointsInverse: true,
+    breakpoints: {
+        1800: {
+            slidesPerView: 4,
+            spaceBetween: 45,
+        },
+        900: {
+          slidesPerView: 3,
+          spaceBetween: 35,
+        },
+        600: {
+          slidesPerView: 2,
+          spaceBetween: 25,
+        },
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 25,
+        }
+    },
     navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',

@@ -36,9 +36,13 @@
         color: $color-grey-dark;
     }
 
-    &--green {
+    &--blue {
         background-color: $color-primary;
         color: $color-white;
+
+        @include respond(phone) {
+            transform: translate(45%, 0);
+        }
     }
 }
 

@@ -9,6 +9,10 @@
         rgba($color-primary-light, 0.75),
         rgba($color-primary-dark, 0.75));
 
+    @include respond(phone) {
+        height: 92.5vh;
+    }
+
     .bg-video {
         position: absolute;
         top: 0;
@@ -34,6 +38,11 @@
 			font-style: normal;
             font-size: 3.5rem;
             color: $color-white;
+        }
+
+        @include respond(tab-port) {
+            top: 2.5rem;
+            right: 2.5rem;
         }
     }
 
@@ -68,4 +77,8 @@
 }
 .scroll-down-icon {
     width: 5%; // Icon Width
+
+    @include respond(phone) {
+       width: 15%;
+    }
 }
