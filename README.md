@@ -45,10 +45,3 @@ Enjoy the website and feel free to customize it!
 * [Animate.css](https://daneden.github.io/animate.css/) - CSS Animations Used
 * [Swiper.js](http://idangero.us/swiper/) - Sliders Layout Used
 * [Font Awesome](https://fontawesome.com/) - Icons Used
-
-
-Viewport
-Window
-×
-×
-×
