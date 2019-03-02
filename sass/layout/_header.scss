@@ -73,7 +73,7 @@
     transform: translate(-50%, -50%);
     text-align: center;
 
-    @include respond(tab-port) {
-        margin-top: 20px;
+    @include respond(phone) {
+        top: 75%; 
     }
 }

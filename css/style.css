@@ -381,6 +381,9 @@ i {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center; }
+  @media (max-width: 37.5em) {
+    .resume-button {
+      top: 75%; } }
 
 .footer {
   background-color: #333;
