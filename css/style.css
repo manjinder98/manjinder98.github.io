@@ -211,9 +211,10 @@ body {
 .btn--blue {
   background-color: #217dbb;
   color: #fff; }
-  @media (max-width: 37.5em) {
+  @media (max-width: 56.25em) {
     .btn--blue {
-      transform: translate(45%, 0); } }
+      display: block;
+      margin: 0 auto; } }
 
 .btn-text:link, .btn-text:visited {
   font-size: 1.6rem;
@@ -245,8 +246,6 @@ body {
     @media (max-width: 56.25em) {
       .skills-block .row [class^="col-"], .skills-block .row .col {
         margin: 2.5px; } }
-    .skills-block .row [class^="col-"] i, .skills-block .row .col i {
-      margin-left: 5px; }
     .skills-block .row [class^="col-"]:hover, .skills-block .row .col:hover {
       background-color: #fff;
       color: #217dbb; }
@@ -255,6 +254,9 @@ body {
       @media (max-width: 56.25em) {
         .skills-block .row [class^="col-"] .skill, .skills-block .row .col .skill {
           font-size: 12px; } }
+
+i {
+  margin-left: 5px; }
 
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
@@ -371,6 +373,13 @@ body {
   @media (max-width: 37.5em) {
     .scroll-down-icon {
       width: 15%; } }
+
+.resume-button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
 
 .footer {
   background-color: #333;

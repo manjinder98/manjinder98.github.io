@@ -40,8 +40,9 @@
         background-color: $color-primary;
         color: $color-white;
 
-        @include respond(phone) {
-            transform: translate(45%, 0);
+        @include respond(tab-port) {
+            display: block;
+            margin: 0 auto;
         }
     }
 }

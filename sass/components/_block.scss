@@ -13,10 +13,6 @@
                 margin: 2.5px;
             }
 
-            i {
-                margin-left: 5px;
-            }
-
             &:hover{
                 background-color: $color-white;
                 color: $color-primary;
@@ -32,4 +28,7 @@
         }
 
     }
+}
+i {
+    margin-left: 5px;
 }
