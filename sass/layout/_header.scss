@@ -72,4 +72,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+
+    @include respond(tab-port) {
+        margin-top: 20px;
+    }
 }
