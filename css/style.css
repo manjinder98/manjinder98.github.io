@@ -248,7 +248,8 @@ body {
         margin: 2.5px; } }
     .skills-block .row [class^="col-"]:hover, .skills-block .row .col:hover {
       background-color: #fff;
-      color: #217dbb; }
+      color: #217dbb;
+      border: 0.5px solid #217dbb; }
     .skills-block .row [class^="col-"] .skill, .skills-block .row .col .skill {
       font-size: 16px; }
       @media (max-width: 56.25em) {
