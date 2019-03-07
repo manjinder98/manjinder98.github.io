@@ -243,7 +243,8 @@ body {
     background-color: #217dbb;
     margin: 5px;
     border-radius: 5px;
-    border: 0.5px solid #fff; }
+    border: 0.5px solid #fff;
+    transition: all .2s ease-in-out; }
     @media (max-width: 56.25em) {
       .skills-block .row [class^="col-"], .skills-block .row .col {
         margin: 2.5px; } }
@@ -390,11 +391,6 @@ i {
   background-color: #333;
   padding: 10rem 0;
   font-size: 1.4rem; }
-  .footer .icon-up {
-    margin-top: -5rem; }
-    @media (max-width: 56.25em) {
-      .footer .icon-up {
-        display: none; } }
   .footer .social {
     display: flex;
     flex-direction: center;
@@ -420,8 +416,9 @@ i {
   .footer__copyright {
     border-top: 1px solid #777;
     color: #fff;
+    font-size: large;
     padding-top: 2rem;
-    width: 27.12%;
+    width: 35%;
     float: right; }
     @media (max-width: 56.25em) {
       .footer__copyright {
