@@ -8,6 +8,7 @@
             background-color: $color-primary;
             margin: 5px;
             border-radius: 5px;
+            border: 0.5px solid $color-white;
             
             @include respond(tab-port) {
                 margin: 2.5px;

@@ -242,7 +242,8 @@ body {
     color: #fff;
     background-color: #217dbb;
     margin: 5px;
-    border-radius: 5px; }
+    border-radius: 5px;
+    border: 0.5px solid #fff; }
     @media (max-width: 56.25em) {
       .skills-block .row [class^="col-"], .skills-block .row .col {
         margin: 2.5px; } }
