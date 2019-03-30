@@ -425,6 +425,9 @@ i {
       @media (max-width: 56.25em) {
         .footer .logo img {
           width: 30%; } }
+      .footer .logo img:hover {
+        animation-name: swing;
+        -webkit-animation-name: swing; }
   .footer__copyright {
     border-top: 1px solid #777;
     color: #fff;
@@ -439,6 +442,9 @@ i {
         text-align: center;
         border-top: none;
         right: 0%; } }
+    .footer__copyright:hover {
+      animation-name: pulse;
+      -webkit-animation-name: pulse; }
 
 .navigation__checkbox {
   display: none; }

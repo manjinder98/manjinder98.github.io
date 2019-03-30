@@ -51,6 +51,11 @@
             @include respond(tab-port) {
                 width: 30%;
             }
+
+            &:hover {
+                animation-name:swing;
+                -webkit-animation-name:swing;
+            }
         }
     }
 
@@ -68,6 +73,11 @@
             text-align: center;
             border-top: none;
             right: 0%;
+        }
+
+        &:hover {
+            animation-name:pulse;
+            -webkit-animation-name:pulse;
         }
     }
 }
