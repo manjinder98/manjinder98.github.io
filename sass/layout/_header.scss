@@ -10,7 +10,7 @@
         rgba($color-primary-dark, 0.75));
 
     @include respond(phone) {
-        height: 92.5vh;
+        height: 95vh;
     }
 
     .bg-video {
