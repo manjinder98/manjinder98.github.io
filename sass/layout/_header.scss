@@ -9,8 +9,8 @@
         rgba($color-primary-light, 0.75),
         rgba($color-primary-dark, 0.75));
 
-    @include respond(phone) {
-        height: 95vh;
+    @include respond(tab-port) {
+        height: 98vh;
     }
 
     .bg-video {
