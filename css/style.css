@@ -306,17 +306,17 @@ i {
   transform: translateY(-4rem); }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-7.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/form-bg.jpg);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
   @media (max-width: 75em) {
     .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-7.jpg);
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/form-bg.jpg);
       background-size: cover; } }
   @media (max-width: 56.25em) {
     .book {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-7.jpg); } }
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/form-bg.jpg); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
@@ -333,9 +333,6 @@ i {
   background-position: top;
   position: relative;
   background: linear-gradient(to right bottom, rgba(135, 227, 255, 0.75), rgba(0, 74, 136, 0.75)); }
-  @media (max-width: 37.5em) {
-    .header {
-      height: 92.5vh; } }
   .header .bg-video {
     position: absolute;
     top: 0;
