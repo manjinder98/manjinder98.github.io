@@ -141,6 +141,8 @@ body {
       background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/dice-project.png); }
     .swiper-slide__picture--4 {
       background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/java-project.JPG); }
+    .swiper-slide__picture--5 {
+      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/foxes-project.png); }
   .swiper-slide__heading {
     font-size: 2rem;
     font-weight: 300;
