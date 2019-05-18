@@ -133,6 +133,8 @@ body {
     border-top-right-radius: 3px;
     position: absolute;
     top: 0; }
+    .swiper-slide__picture--0 {
+      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/forkify-project.JPG); }
     .swiper-slide__picture--1 {
       background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/dw-project.png); }
     .swiper-slide__picture--2 {
