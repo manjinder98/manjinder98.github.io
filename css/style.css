@@ -44,6 +44,9 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 3rem !important; }
 
+.u-hr-margin {
+  margin: 13px; }
+
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
@@ -70,7 +73,7 @@ body {
     font-size: 2rem;
     font-weight: 700;
     font-style: italic;
-    line-height: 1.5;
+    line-height: 3rem;
     letter-spacing: 0.5rem; }
 
 .heading-secondary {
@@ -134,17 +137,17 @@ body {
     position: absolute;
     top: 0; }
     .swiper-slide__picture--0 {
-      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/forkify-project.JPG); }
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/projects/forkify-project.JPG); }
     .swiper-slide__picture--1 {
-      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/dw-project.png); }
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/projects/dw-project.png); }
     .swiper-slide__picture--2 {
-      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/b-project.png); }
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/projects/b-project.png); }
     .swiper-slide__picture--3 {
-      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/dice-project.png); }
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/projects/dice-project.png); }
     .swiper-slide__picture--4 {
-      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/java-project.JPG); }
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/projects/java-project.JPG); }
     .swiper-slide__picture--5 {
-      background-image: linear-gradient(to right bottom, #87E3FF, #004A88), url(../../img/projects/foxes-project.png); }
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../img/projects/foxes-project.png); }
   .swiper-slide__heading {
     font-size: 2rem;
     font-weight: 300;
@@ -336,7 +339,7 @@ i {
   background-size: cover;
   background-position: top;
   position: relative;
-  background: linear-gradient(to right bottom, rgba(135, 227, 255, 0.75), rgba(0, 74, 136, 0.75)); }
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
   .header .bg-video {
     position: absolute;
     top: 0;
@@ -380,10 +383,13 @@ i {
 
 .resume-button {
   position: absolute;
-  top: 70%;
+  top: 72%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center; }
+  .resume-button .resume-text {
+    font-size: 18px;
+    color: black; }
   @media (max-width: 37.5em) {
     .resume-button {
       top: 75%; } }
