@@ -58,20 +58,3 @@
        width: 15%;
     }
 }
-
-.resume-button {
-    position: absolute;
-    top: 72%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
-    .resume-text {
-        font-size: 18px;
-        color: black;
-    }
-
-    @include respond(phone) {
-        top: 75%; 
-    }
-}

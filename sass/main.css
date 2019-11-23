@@ -570,26 +570,6 @@ i {
   }
 }
 
-.resume-button {
-  position: absolute;
-  top: 72%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.resume-button .resume-text {
-  font-size: 18px;
-  color: black;
-}
-
-@media (max-width: 37.5em) {
-  .resume-button {
-    top: 75%;
-  }
-}
-
 .footer {
   background-color: #333;
   padding: 10rem 0;
