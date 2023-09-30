@@ -29,6 +29,24 @@
 </head>
 <body>
 
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>  
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#header" class="navigation__link">Home</a></li>
+                    <li class="navigation__item"><a href="#section-about" class="navigation__link">About Me</a></li>
+                    <li class="navigation__item"><a href="#section-projects" class="navigation__link">Projects</a></li>
+                    <li class="navigation__item"><a href="#section-skills" class="navigation__link">Skills</a></li>
+                    <li class="navigation__item"><a href="#section-contact" class="navigation__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <header id="header" class="header">
             <div class="gradient">
             </div>
@@ -43,10 +61,323 @@
                 <h1 class="heading-primary animated fadeInDown">
                     <span class="heading-primary--main">MANJINDER SINGH</span>
                     <hr class="u-hr-margin">
-                    <span class="heading-primary--sub">Full Stack Web Developer</span>
+                    <span class="heading-primary--sub">Software Engineering Student<br>Full Stack Web Developer</span>
                 </h1>
             </div>
+            <div class="header__scroll-down-icon">
+                <a href="#section-about"><img src="img/scroll-down-icon.png" alt="Scroll Down Icon" class="scroll-down-icon"></a>
+            </div>
         </header>
+    
+        <main>
+            <section id="section-about" class="section section-about">
+                <div class="row">
+                    <div class="col">
+                        <div class="u-center-text u-margin-bottom-small">
+                                <h2 class="heading-secondary">
+                                    About Me
+                                </h2>
+                        </div>
+                        <p class="paragraph">
+                            Hey there! My name is <b>Manjinder</b> and I'm a <b>Full Stack Web Developer</b>.
+                        </p>
+                        <p class="paragraph">
+                            I am currently a <b>Software Engineering</b> student at the <b>University of Strathclyde</b> in Glasgow, 
+                            where I am learning more about computer science, especially the logic, 
+                            the functions and everything that stands behind any programming language. 
+                        </p>
+                        <p class="paragraph">
+                            I started programming since I was in high school where I learnt basic web programming languages
+                            such as <b>HTML5</b> and <b>CSS3</b>. 
+                            Nowadays I keep updating myself by learning new <b>languages</b> and deliver new <b>projects</b> 
+                            that could help me to improve my coding experience by making my code more <b>efficient</b> and <b>reliable</b>. 
+                            In my free time, I always try to learn new trends
+                            in order to keep the pace in this <b>fast-changing environment</b>.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        <section id="section-projects" class="section section-projects">                
+            <div class="u-center-text u-margin-bottom-medium">
+                <h2 class="heading-secondary">
+                    My Projects
+                </h2>
+            </div>
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__picture swiper-slide__picture--0">
+                        &nbsp;
+                        </div>
+                        <h4 class="swiper-slide__heading">
+                            <span class="swiper-slide__heading--span">
+                                ForkifyJS
+                            </span>
+                        </h4>
+                        <div class="swiper-slide__details">
+                            <ul>
+                                <li>
+                                    Asynchronous JavaScript
+                                </li>
+                                <li>
+                                    NPM, Webpack, Babel and ES6 modules
+                                </li>
+                                <li>
+                                    ES6: arrow functions, classes, default and rest parameters
+                                </li>
+                                <li>
+                                    Use of JS Libraries: Scrollreveal and Magnific-Popup
+                                </li>
+                                <li>
+                                    Git Version Control
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide__back">
+                            <a href="https://forkifyjs6.firebaseapp.com/" class="btn btn--white swiper-slide__back--btn">Check Now</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__picture swiper-slide__picture--2">
+                        &nbsp;
+                        </div>
+                        <h4 class="swiper-slide__heading">
+                            <span class="swiper-slide__heading--span">
+                                BudgetyAppJS
+                            </span>
+                        </h4>
+                        <div class="swiper-slide__details">
+                            <ul>
+                                <li>
+                                    Project Planning and Architecture
+                                </li>
+                                <li>
+                                    Implementing Module's Patterns
+                                </li>
+                                <li>
+                                    Setting up Event Listeners
+                                </li>
+                                <li>
+                                    Reading Input Data through DOM Manipulation
+                                </li>
+                                <li>
+                                    Implementing Items System to the UI
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide__back">
+                            <a href="https://manjinder98.github.io/BudgetyAppJS/" class="btn btn--white swiper-slide__back--btn">Check Now</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__picture swiper-slide__picture--3">
+                        &nbsp;
+                        </div>
+                        <h4 class="swiper-slide__heading">
+                            <span class="swiper-slide__heading--span">
+                                DiceGameJS
+                            </span>
+                        </h4>
+                        <div class="swiper-slide__details">
+                            <ul>
+                                <li>
+                                    DOM Access and DOM Manipulation
+                                </li>
+                                <li>
+                                    Events Handlers
+                                </li>
+                                <li>
+                                    DRY Principle
+                                </li>
+                                <li>
+                                    JS Functions & Objects
+                                </li>
+                                <li>
+                                    Use of ES5
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide__back">
+                            <a href="https://manjinder98.github.io/DiceGameJS/" class="btn btn--white swiper-slide__back--btn">Check Now</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__picture swiper-slide__picture--4">
+                        &nbsp;
+                        </div>
+                        <h4 class="swiper-slide__heading">
+                            <span class="swiper-slide__heading--span">
+                                SwingFormJAVA
+                            </span>
+                        </h4>
+                        <div class="swiper-slide__details">
+                            <ul>
+                                <li>
+                                    Fields Validation
+                                </li>
+                                <li>
+                                    Class Implementation: Setters and Getters
+                                </li>
+                                <li>
+                                    JavaSwing Elements and ActionListener
+                                </li>
+                                <li>
+                                    Try and Catch Implementation
+                                </li>
+                                <li>
+                                    Writer Class and Methods
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide__back">
+                            <a href="https://github.com/manjinder98/SwingFormJAVA" class="btn btn--white swiper-slide__back--btn">Check Now</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__picture swiper-slide__picture--5">
+                        &nbsp;
+                        </div>
+                        <h4 class="swiper-slide__heading">
+                            <span class="swiper-slide__heading--span">
+                                FoxesAndRabbitsJAVA
+                            </span>
+                        </h4>
+                        <div class="swiper-slide__details">
+                            <ul>
+                                <li>
+                                    Use of Graphical User Interfaces
+                                </li>
+                                <li>
+                                    Use of Inheritance and Interfaces
+                                </li>
+                                <li>
+                                    JavaSwing Elements and ActionListener
+                                </li>
+                                <li>
+                                    Exceptions, File I/O Implementation
+                                </li>
+                                <li>
+                                    Use of JavaFX
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide__back">
+                            <a href="https://github.com/manjinder98/FoxesAndRabbitsJAVA" class="btn btn--white swiper-slide__back--btn">Check Now</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section id="section-skills" class="section section-skills">       
+            <div class="u-center-text u-margin-bottom-medium">
+                <h2 class="heading-secondary">
+                    My Skills
+                </h2>
+            </div>
+            <div class="skills-block">
+                <div class="row">
+                    <div class="col-1-of-3"><span class="skill">HTML5</span><i class="fab fa-html5"></i></div>
+                    <div class="col-1-of-3"><span class="skill">CSS3</span><i class="fab fa-css3-alt"></i></div>
+                    <div class="col-1-of-3"><span class="skill">Javascript</span><i class="fab fa-js-square"></i></div>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-3"><span class="skill">Node JS</span><i class="fab fa-node-js"></i></div>
+                    <div class="col-1-of-3"><span class="skill">jQuery</span><i class="fab fa-js"></i></div>
+                    <div class="col-1-of-3"><span class="skill">Vue.js</span><i class="fab fa-vuejs"></i></div>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-4"><span class="skill">PHP</span><i class="fab fa-php"></i></div>
+                    <div class="col-1-of-4"><span class="skill">Java</span><i class="fab fa-java"></i></div>
+                    <div class="col-1-of-4"><span class="skill">Python</span><i class="fab fa-python"></i></div>
+                    <div class="col-1-of-4"><span class="skill">MySQL</span><i class="fas fa-database"></i></div>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-2"><span class="skill">Bootstrap</span><i class="fas fa-code"></i></div>
+                    <div class="col-1-of-2"><span class="skill">SASS</span><i class="fab fa-sass"></i></div>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-4"><span class="skill">Wordpress</span><i class="fab fa-wordpress"></i></div>
+                    <div class="col-1-of-4"><span class="skill">Git</span><i class="fab fa-git-square"></i></div>
+                    <div class="col-1-of-4"><span class="skill">Github</span><i class="fab fa-github"></i></div>
+                    <div class="col-1-of-4"><span class="skill">Jira</span><i class="fab fa-jira"></i></div>
+                </div>
+                <div class="row u-center-text">
+                    <div class="col">Full Stack Web Development <i class="fas fa-network-wired"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-contact" class="section section-contact">
+            <div class="row">
+                <div class="book">
+                    <div class="book__form">
+                        <form class="form" name="form" action="https://formspree.io/manjindermultani1998@gmail.com" onsubmit="return Validation();" method="POST">
+                            <div class="u-margin-bottom-medium">
+                                <h2 class="heading-secondary">
+                                    Contact Me
+                                </h2>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" id="name" name="name" class="form__input" placeholder="Enter Name" required>
+                                <label for="name" class="form__label">Name</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="email" id="email" name="email" class="form__input" placeholder="Enter Email" required>
+                                <label for="email" class="form__label">Email</label>
+                            </div>
+                            <div class="form__group">
+                                <textarea id="message" name="message" class="form__input" placeholder="Enter Message" rows="5" cols="30" required></textarea>
+                                <label for="message" class="form__label">Message</label>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn--blue">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer" class="footer">
+                
+            <div class="row">
+                <div class="col-1-of-3">
+                    <div class="social">
+                        <a href="https://github.com/manjinder98"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/manjindr-singh"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://open.spotify.com/user/bv45dlnjzggvftm2pcawfmsb1/playlist/1WeQNpHYEpFdJQPK65nlU1?si=8cO5-OD0SeyZbhF1EW3EYQ"><i class="fab fa-spotify"></i></a>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <div class="logo">
+                        <a href="#header"><img src="img/logo.png" alt="Logo" class="animated"></a>
+                    </div>
+                </div>
+                <div class="col-1-of-3">
+                    <p class="footer__copyright animated">
+                        &copy; <span id="year"></span> Manjinder Singh
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
     <script src="js/vendor/swiper/swiper.min.js"></script>
     <script src="js/index.js"></script>
 
